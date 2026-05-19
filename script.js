@@ -6,10 +6,45 @@
 // CONFIG — Edit these!
 // ──────────────────────────────────────
 const CONFIG = {
-  name: "LEGEND",          // Birthday person's name (used in login hint too)
-  password: "legend",      // Lowercase password (matches hint)
+  name: "SHAKIL",          // Birthday person's name (used in login hint too)
+  password: "shakil",      // Lowercase password (matches hint)
   birthdayDate: new Date("2025-05-19"), // Set to next birthday
-  specialMessage: `> Hey, you absolute legend.\n\nThey say the best hackers leave no trace.\nBut you? You've left traces everywhere.\n\nIn every memory, every laugh,\nevery late-night mission we survived together.\n\nYou cracked the code of being an incredible\nhuman being — and that's the hardest\nalgorithm of all.\n\nHappy Birthday.\nKeep hacking the system.\nKeep being YOU.\n\n  — Your crew, from the dark web 💚`,
+  specialMessage: `> SUBJECT: MD ASHADUZZAMAN SHAKIL
+> CLEARANCE: MAXIMUM
+> STATUS: ABSOLUTE LEGEND
+
+They say great engineers build structures.
+You build empires.
+
+While others follow blueprints,
+you rewrite them mid-execution —
+solar plants, joint ventures, infrastructure
+all delivered flawlessly, on your watch.
+
+4+ years on-site taught you what no
+classroom ever could: that the best
+builders don't just manage projects,
+they LEAD people through chaos.
+
+And when the hard hat comes off?
+You're running THREE companies.
+  > Cqube International — global shipping
+  > Apprent Global — shaping futures
+  > Cqube Mart — B2B tech distribution
+
+Civil Engineer. Entrepreneur. Mentor.
+MIAENG. MIDEB. AEC Specialist.
+
+You don't just turn complex plans
+into flawless execution —
+you turn ordinary days into
+extraordinary ones, just by showing up.
+
+Happy Birthday, Shakil.
+The blueprints of your life are
+already a masterpiece.
+
+  — From those who know your worth 💚`,
   memories: [
     {
       emoji: "📸",
@@ -186,7 +221,7 @@ function showSection(id, doTerminal = false) {
 // TERMINAL SEQUENCE
 // ──────────────────────────────────────
 const terminalScript = [
-  { text: "$ sudo ./birthday_protocol.sh --target=" + "LEGEND", cls: "success", delay: 0 },
+  { text: "$ sudo ./birthday_protocol.sh --target=SHAKIL", cls: "success", delay: 0 },
   { text: "", cls: "empty", delay: 300 },
   { text: "[    0.001] kernel: initializing surprise...", cls: "success", delay: 600 },
   { text: "[    0.042] net: routing through onion network...", cls: "success", delay: 900 },
