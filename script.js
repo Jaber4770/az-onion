@@ -381,6 +381,18 @@ function startCountdown() {
 let musicPlaying = false;
 const audio = document.getElementById('bg-music');
 
+// Handle autoplay — update UI once audio starts
+audio.addEventListener('play', () => {
+  musicPlaying = true;
+  document.getElementById('music-toggle').textContent = '⏸ PAUSE';
+  document.getElementById('music-viz').classList.add('playing');
+});
+audio.addEventListener('pause', () => {
+  musicPlaying = false;
+  document.getElementById('music-toggle').textContent = '▶ PLAY';
+  document.getElementById('music-viz').classList.remove('playing');
+});
+
 function toggleMusic() {
   const btn = document.getElementById('music-toggle');
   const viz = document.getElementById('music-viz');
