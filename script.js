@@ -8,7 +8,7 @@
 const CONFIG = {
   name: "SHAKIL",          // Birthday person's name (used in login hint too)
   password: "shakil",      // Lowercase password (matches hint)
-  birthdayDate: new Date("2025-05-19"), // Set to next birthday
+  birthdayDate: new Date("2027-05-18"), // Set to next birthday
   specialMessage: `> SUBJECT: MD ASHADUZZAMAN SHAKIL
 > CLEARANCE: MAXIMUM
 > STATUS: ABSOLUTE LEGEND
