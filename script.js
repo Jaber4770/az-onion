@@ -172,6 +172,8 @@ function typeLoginPrompt() {
 // LOGIN LOGIC
 // ──────────────────────────────────────
 function attemptLogin() {
+  // Start music on first user interaction
+  audio.play().then(() => { musicPlaying = true; }).catch(() => {});
   const input = document.getElementById('password-input').value.trim().toLowerCase();
   const errEl = document.getElementById('login-error');
 
@@ -190,7 +192,10 @@ function attemptLogin() {
 document.addEventListener('DOMContentLoaded', () => {
   typeLoginPrompt();
   document.getElementById('password-input').addEventListener('keydown', e => {
-    if (e.key === 'Enter') attemptLogin();
+    if (e.key === 'Enter') {
+      audio.play().then(() => { musicPlaying = true; }).catch(() => {});
+      attemptLogin();
+    }
   });
   buildMemories();
   startCountdown();
